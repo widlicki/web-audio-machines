@@ -1,13 +1,11 @@
-import { Button } from '@chakra-ui/react'
 import type { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <Button size="xl">Welcome</Button>
+    <div>
+      <h1>Home Page</h1>
     </div>
   )
 }
 
-export default Home
+export default HomePage

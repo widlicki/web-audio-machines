@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sign Up renders sign-up page according to snapshot 1`] = `
+<div>
+  <div>
+    <h1>
+      Sign-Up
+    </h1>
+  </div>
+</div>
+`;
