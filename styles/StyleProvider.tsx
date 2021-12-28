@@ -1,8 +1,9 @@
-import { ChakraProvider } from '@chakra-ui/react';
-import theme from './Theme';
+import { ChakraProvider } from '@chakra-ui/react'
+import { FC } from 'react'
+import theme from './Theme'
 
-const StyleProvider: React.FC = ({ children }) => (
+const StyleProvider: FC = ({ children }) => (
   <ChakraProvider theme={theme}>{children}</ChakraProvider>
-);
+)
 
-export default StyleProvider;
+export default StyleProvider
