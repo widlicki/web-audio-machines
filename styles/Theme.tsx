@@ -1,4 +1,4 @@
-import { extendTheme } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/react'
 
 const theme = extendTheme({
   colors: {
@@ -10,14 +10,19 @@ const theme = extendTheme({
   components: {
     Button: {
       baseStyle: {
-        padding: '0.8rem',
+        padding: '2.8rem',
         color: 'gray.800',
         bg: 'gray.100',
         border: '1px',
         borderColor: 'gray.800',
       },
     },
+    Spinner: {
+      baseStyle: {
+        color: 'orange.400',
+      },
+    },
   },
-});
+})
 
-export default theme;
+export default theme

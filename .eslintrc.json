@@ -22,6 +22,8 @@
     "arrow-body-style": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "react/destructuring-assignment": "off",
     "react/function-component-definition": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [

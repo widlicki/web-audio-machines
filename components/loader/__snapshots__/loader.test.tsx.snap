@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Should render Loader according to snapshot 1`] = `
+<div>
+  <div
+    class="chakra-spinner css-mb5q2b"
+  >
+    <span
+      class="css-f8n5zr"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Loader renders Loader according to snapshot 1`] = `
+<div>
+  <div
+    class="chakra-spinner css-mb5q2b"
+  >
+    <span
+      class="css-f8n5zr"
+    >
+      Loading...
+    </span>
+  </div>
+</div>
+`;

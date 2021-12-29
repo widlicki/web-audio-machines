@@ -6,6 +6,15 @@ exports[`Library renders library page according to snapshot 1`] = `
     <h1>
       Library
     </h1>
+    <div
+      class="chakra-spinner css-mb5q2b"
+    >
+      <span
+        class="css-f8n5zr"
+      >
+        Loading...
+      </span>
+    </div>
   </div>
 </div>
 `;
