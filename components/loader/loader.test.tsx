@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react'
-import Loader from '../loader/loader'
+import Loader from './Loader'
 
 describe('Loader', () => {
   it('Should render Loader according to snapshot', () => {

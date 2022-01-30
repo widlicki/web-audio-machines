@@ -20,6 +20,8 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "arrow-body-style": "off",
+    "class-methods-use-this": "off",
+    "no-return-await": "off",
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],

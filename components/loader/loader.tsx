@@ -1,4 +1,4 @@
-import { Spinner } from '@chakra-ui/react'
+import { CircularProgress } from '@mui/material'
 import { Size } from '../../interfaces'
 
 export interface Props {
@@ -6,14 +6,10 @@ export interface Props {
 }
 
 const Loader: React.FC<Props> = ({ size }) => {
-  return (
-    <Spinner
-      thickness="4px"
-      speed="0.65s"
-      emptyColor="gray.200"
-      size={size || 'lg'}
-    />
-  )
+  const getSize = () => {
+    return size === 'lg' ? 40 : 20
+  }
+  return <CircularProgress size={getSize()} />
 }
 
 export default Loader

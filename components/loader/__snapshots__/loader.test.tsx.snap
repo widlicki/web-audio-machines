@@ -2,28 +2,24 @@
 
 exports[`Loader Should render Loader according to snapshot 1`] = `
 <div>
-  <div
-    class="chakra-spinner css-mb5q2b"
+  <span
+    class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorPrimary css-18lrjg1-MuiCircularProgress-root"
+    role="progressbar"
+    style="width: 20px; height: 20px;"
   >
-    <span
-      class="css-f8n5zr"
+    <svg
+      class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
     >
-      Loading...
-    </span>
-  </div>
-</div>
-`;
-
-exports[`Loader renders Loader according to snapshot 1`] = `
-<div>
-  <div
-    class="chakra-spinner css-mb5q2b"
-  >
-    <span
-      class="css-f8n5zr"
-    >
-      Loading...
-    </span>
-  </div>
+      <circle
+        class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+        cx="44"
+        cy="44"
+        fill="none"
+        r="20.2"
+        stroke-width="3.6"
+      />
+    </svg>
+  </span>
 </div>
 `;

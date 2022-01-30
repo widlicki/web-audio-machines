@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import { mockAudioCategories } from '../../mocks/library'
-import AudioCategoryList from './audio-category-list'
+import AudioCategoryList from './AudioCategoryList'
 
 let component: any
 

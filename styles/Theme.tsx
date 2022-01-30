@@ -1,28 +1,45 @@
-import { extendTheme } from '@chakra-ui/react'
+import { CircularProgress, createTheme, styled } from '@mui/material'
+import { blue, grey, orange } from '@mui/material/colors'
 
-const theme = extendTheme({
-  colors: {
-    brand: {
-      100: '#f7fafc',
-      900: '#1a202c',
+declare module '@mui/material/styles' {
+  interface Theme {
+    border: {
+      color: {
+        dark: string
+        light: string
+      }
+    }
+  }
+  // allow configuration using `createTheme`
+  interface ThemeOptions {
+    border?: {
+      color?: {
+        dark?: string
+        light?: string
+      }
+    }
+  }
+}
+
+const theme = createTheme({
+  border: {
+    color: {
+      dark: grey[800],
+      light: grey[200],
     },
   },
-  components: {
-    Button: {
-      baseStyle: {
-        padding: '2.8rem',
-        color: 'gray.800',
-        bg: 'gray.100',
-        border: '1px',
-        borderColor: 'gray.800',
-      },
+  palette: {
+    primary: {
+      main: blue[500],
     },
-    Spinner: {
-      baseStyle: {
-        color: 'orange.400',
-      },
+    secondary: {
+      main: orange[500],
     },
   },
 })
+
+export const Loader = styled(CircularProgress)(() => ({
+  color: theme.palette.primary.main,
+}))
 
 export default theme
