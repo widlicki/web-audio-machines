@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { GetRequest } from '../interfaces/http'
-import { get } from '../networkRequests/http'
+import { GetRequest } from '../../interfaces/http'
+import { get } from '../../networkRequests/http'
 
 export const useGetData = <T>(request: GetRequest) => {
   const [data, setData] = useState<T | null>(null)

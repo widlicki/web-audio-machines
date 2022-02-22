@@ -1,5 +1,5 @@
 import { Box } from '@mui/material'
-import { Loader } from '../styles/theme'
+import { Loader } from '../../styles/theme'
 
 export const withRequest = (WrappedComponent: React.FC) => {
   const withRequestComponent = (props: any) => {

@@ -1,5 +1,11 @@
-import { CircularProgress, createTheme, styled } from '@mui/material'
-import { blue, grey, orange } from '@mui/material/colors'
+import {
+  CircularProgress,
+  Link,
+  Typography,
+  createTheme,
+  styled,
+} from '@mui/material'
+import { blue, common, grey, orange } from '@mui/material/colors'
 
 declare module '@mui/material/styles' {
   interface Theme {
@@ -40,6 +46,21 @@ const theme = createTheme({
 
 export const Loader = styled(CircularProgress)(() => ({
   color: theme.palette.primary.main,
+}))
+
+export const NavLink = styled(Link)(() => ({
+  fontSize: 16,
+  color: common.white,
+  marginLeft: '12px',
+  textDecoration: 'none',
+}))
+
+export const NotFoundMessage = styled(Typography)(() => ({
+  color: grey[400],
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  fontSize: '1.4em',
 }))
 
 export default theme

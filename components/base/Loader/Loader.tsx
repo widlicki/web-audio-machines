@@ -1,5 +1,5 @@
 import { CircularProgress } from '@mui/material'
-import { Size } from '../../interfaces'
+import { Size } from '../../../interfaces'
 
 export interface Props {
   size?: Size
