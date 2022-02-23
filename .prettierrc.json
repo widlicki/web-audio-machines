@@ -6,6 +6,7 @@
     "<THIRD_PARTY_MODULES>",
     "^components/",
     "^pages/",
+    "^hooks/",
     "^interfaces/",
     "^mocks/",
     "^[./].*(?<!\\.(c|le|sc)ss)$",

@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react'
-import Sampler from '../pages/machines/sampler'
+import Sampler from '../../../pages/machines/sampler'
 
 describe('Sampler', () => {
   it('renders sampler page according to snapshot', () => {

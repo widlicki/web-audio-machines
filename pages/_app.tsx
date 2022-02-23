@@ -1,12 +1,13 @@
-import '../styles/globals.css'
+import { ThemeProvider } from '@mui/material/styles'
 import type { AppProps } from 'next/app'
-import StyleProvider from '../styles/StyleProvider'
+import theme from '../styles/theme'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <StyleProvider>
+    <ThemeProvider theme={theme}>
       <Component {...pageProps} />
-    </StyleProvider>
+    </ThemeProvider>
   )
 }
 
