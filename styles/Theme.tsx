@@ -1,4 +1,6 @@
 import {
+  AppBar,
+  Card,
   CircularProgress,
   Link,
   Typography,
@@ -9,6 +11,12 @@ import { blue, common, grey, orange } from '@mui/material/colors'
 
 declare module '@mui/material/styles' {
   interface Theme {
+    background: {
+      color: {
+        dark: string
+        light: string
+      }
+    }
     border: {
       color: {
         dark: string
@@ -18,6 +26,12 @@ declare module '@mui/material/styles' {
   }
   // allow configuration using `createTheme`
   interface ThemeOptions {
+    background?: {
+      color?: {
+        dark?: string
+        light?: string
+      }
+    }
     border?: {
       color?: {
         dark?: string
@@ -28,6 +42,12 @@ declare module '@mui/material/styles' {
 }
 
 const theme = createTheme({
+  background: {
+    color: {
+      dark: '#444753',
+      light: '#5d6990',
+    },
+  },
   border: {
     color: {
       dark: grey[800],
@@ -36,16 +56,27 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: blue[500],
+      main: '#303C61',
     },
     secondary: {
-      main: orange[500],
+      main: '#DB9D0D',
     },
   },
 })
 
+export const AppHeader = styled(AppBar)(() => ({
+  background: theme.background.color.dark,
+  borderBottom: `4px solid ${theme.palette.secondary.main}`,
+}))
+
 export const Loader = styled(CircularProgress)(() => ({
   color: theme.palette.primary.main,
+}))
+
+export const MachineCard = styled(Card)(() => ({
+  background: theme.background.color.light,
+  padding: '20px',
+  color: common.white,
 }))
 
 export const NavLink = styled(Link)(() => ({
