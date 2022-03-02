@@ -64,18 +64,13 @@ const theme = createTheme({
   },
 })
 
-export const AppHeader = styled(AppBar)(() => ({
-  background: theme.background.color.dark,
-  borderBottom: `4px solid ${theme.palette.secondary.main}`,
-}))
-
 export const Loader = styled(CircularProgress)(() => ({
   color: theme.palette.primary.main,
 }))
 
-export const MachineCard = styled(Card)(() => ({
+export const AppCard = styled(Card)(() => ({
   background: theme.background.color.light,
-  padding: '20px',
+  padding: theme.spacing(4),
   color: common.white,
 }))
 

@@ -1,17 +1,27 @@
-import { Toolbar } from '@mui/material'
+import { AppBar, Toolbar } from '@mui/material'
 import Box from '@mui/material/Box'
-import { AppHeader, NavLink } from '../../../styles/theme'
+import theme, { NavLink } from '../../../styles/theme'
 
 export interface HeaderProps {
   isAuthenticated: boolean
 }
 
 const Header = ({ isAuthenticated }: HeaderProps) => (
-  <AppHeader elevation={0} position="fixed">
-    <Toolbar sx={{ justifyContent: 'space-between' }}>
+  <AppBar
+    elevation={0}
+    position="fixed"
+    sx={{
+      background: theme.background.color.light,
+      borderBottom: `4px solid ${theme.palette.secondary.main}`,
+      height: '13vh',
+    }}
+  >
+    <Toolbar
+      sx={{ justifyContent: 'space-between', marginTop: theme.spacing(2) }}
+    >
       <Box sx={{ flex: 1 }} />
-      <NavLink variant="h6" href="/" sx={{ fontSize: 24 }}>
-        webaudiomachines
+      <NavLink variant="h1" href="/" sx={{ fontSize: 24 }}>
+        web &bull; audio &bull; machines
       </NavLink>
       <Box
         sx={{
@@ -36,7 +46,7 @@ const Header = ({ isAuthenticated }: HeaderProps) => (
         )}
       </Box>
     </Toolbar>
-  </AppHeader>
+  </AppBar>
 )
 
 export default Header
