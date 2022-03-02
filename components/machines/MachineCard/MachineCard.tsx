@@ -1,6 +1,12 @@
-import { Button, CardActions, CardContent, Typography } from '@mui/material'
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  Typography,
+} from '@mui/material'
 import Image from 'next/image'
-import { AppCard } from '../../../styles/theme'
+import theme from '../../../styles/theme'
 
 export interface MachineCardProps {
   description: string
@@ -9,7 +15,14 @@ export interface MachineCardProps {
 }
 
 const MachineCard = ({ description, image, name }: MachineCardProps) => (
-  <AppCard>
+  <Card
+    sx={{
+      background: theme.background.color.light,
+      borderRadius: '14px',
+      color: 'common.white',
+      padding: theme.spacing(4),
+    }}
+  >
     <Image src={image} alt={name} />
     <CardContent>
       <Typography gutterBottom variant="h4">
@@ -20,7 +33,7 @@ const MachineCard = ({ description, image, name }: MachineCardProps) => (
     <CardActions>
       <Button size="medium">Launch</Button>
     </CardActions>
-  </AppCard>
+  </Card>
 )
 
 export default MachineCard

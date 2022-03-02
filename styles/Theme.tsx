@@ -68,12 +68,6 @@ export const Loader = styled(CircularProgress)(() => ({
   color: theme.palette.primary.main,
 }))
 
-export const AppCard = styled(Card)(() => ({
-  background: theme.background.color.light,
-  padding: theme.spacing(4),
-  color: common.white,
-}))
-
 export const NavLink = styled(Link)(() => ({
   fontSize: 16,
   color: common.white,
