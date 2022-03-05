@@ -12,8 +12,8 @@ const Header = ({ isAuthenticated }: HeaderProps) => (
     position="fixed"
     sx={{
       background: theme.background.color.light,
-      borderBottom: `4px solid ${theme.palette.secondary.main}`,
-      height: '13vh',
+      borderBottom: `${theme.border.size.md} solid ${theme.palette.secondary.main}`,
+      height: theme.spacing(12),
     }}
   >
     <Toolbar

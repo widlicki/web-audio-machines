@@ -8,9 +8,9 @@ const Footer = () => (
     maxWidth={false}
     sx={{
       background: theme.background.color.light,
-      borderTop: `4px solid ${theme.palette.secondary.main}`,
+      borderTop: `${theme.border.size.md} solid ${theme.palette.secondary.main}`,
       color: 'common.white',
-      height: '10vh',
+      height: theme.spacing(12),
     }}
   >
     <Grid container>
@@ -21,7 +21,7 @@ const Footer = () => (
           textAlign: 'center',
           color: 'common.white',
           position: 'relative',
-          marginTop: theme.spacing(3),
+          marginTop: theme.spacing(4),
         }}
       >
         <Typography variant="body1">

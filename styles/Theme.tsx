@@ -1,13 +1,11 @@
 import {
-  AppBar,
-  Card,
   CircularProgress,
   Link,
   Typography,
   createTheme,
   styled,
 } from '@mui/material'
-import { blue, common, grey, orange } from '@mui/material/colors'
+import { common, grey } from '@mui/material/colors'
 
 declare module '@mui/material/styles' {
   interface Theme {
@@ -18,10 +16,18 @@ declare module '@mui/material/styles' {
       }
     }
     border: {
+      size: {
+        sm: string
+        md: string
+      }
       color: {
         dark: string
         light: string
       }
+    }
+    disabled: {
+      color: string
+      bgColor: string
     }
   }
   // allow configuration using `createTheme`
@@ -33,10 +39,18 @@ declare module '@mui/material/styles' {
       }
     }
     border?: {
+      size?: {
+        sm?: string
+        md?: string
+      }
       color?: {
         dark?: string
         light?: string
       }
+    }
+    disabled?: {
+      color?: string
+      bgColor?: string
     }
   }
 }
@@ -49,10 +63,18 @@ const theme = createTheme({
     },
   },
   border: {
+    size: {
+      sm: '1px',
+      md: '4px',
+    },
     color: {
       dark: grey[800],
       light: grey[200],
     },
+  },
+  disabled: {
+    color: grey[400],
+    bgColor: grey[200],
   },
   palette: {
     primary: {

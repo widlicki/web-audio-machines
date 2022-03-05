@@ -1,6 +1,5 @@
 import { render } from '@testing-library/react'
 import Footer from './Footer'
-// eslint-disable-next-line import/extensions
 import { DefaultFooter } from './Footer.stories'
 
 describe('Footer Stories', () => {

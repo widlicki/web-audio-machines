@@ -12,6 +12,7 @@ const HomePage: NextPage = () => (
           description="4 track sample-based sequencer with step and probability randomization, preset save and callback."
           image={SamplerImg}
           name="Sampler"
+          to="/machines/sampler"
         />
       </Grid>
     </Grid>
