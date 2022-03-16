@@ -5,41 +5,83 @@ import {
   createTheme,
   styled,
 } from '@mui/material'
-import { blue, common, grey, orange } from '@mui/material/colors'
+import { common, grey } from '@mui/material/colors'
 
 declare module '@mui/material/styles' {
   interface Theme {
-    border: {
+    background: {
       color: {
         dark: string
         light: string
       }
     }
+    border: {
+      size: {
+        sm: string
+        md: string
+      }
+      color: {
+        dark: string
+        light: string
+      }
+    }
+    disabled: {
+      color: string
+      bgColor: string
+    }
   }
   // allow configuration using `createTheme`
   interface ThemeOptions {
-    border?: {
+    background?: {
       color?: {
         dark?: string
         light?: string
       }
     }
+    border?: {
+      size?: {
+        sm?: string
+        md?: string
+      }
+      color?: {
+        dark?: string
+        light?: string
+      }
+    }
+    disabled?: {
+      color?: string
+      bgColor?: string
+    }
   }
 }
 
 const theme = createTheme({
+  background: {
+    color: {
+      dark: '#444753',
+      light: '#5d6990',
+    },
+  },
   border: {
+    size: {
+      sm: '1px',
+      md: '4px',
+    },
     color: {
       dark: grey[800],
       light: grey[200],
     },
   },
+  disabled: {
+    color: grey[400],
+    bgColor: grey[200],
+  },
   palette: {
     primary: {
-      main: blue[500],
+      main: '#303C61',
     },
     secondary: {
-      main: orange[500],
+      main: '#DB9D0D',
     },
   },
 })

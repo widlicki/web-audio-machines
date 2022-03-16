@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app'
 import theme from '../styles/theme'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }: AppProps) {
+function WebAudioMachines({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
@@ -11,4 +11,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-export default MyApp
+export default WebAudioMachines
