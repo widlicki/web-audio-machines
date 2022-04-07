@@ -2,10 +2,67 @@
 
 exports[`Sampler renders sampler page according to snapshot 1`] = `
 <div>
-  <div>
-    <h1>
-      Sampler
-    </h1>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-xnb1ep-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1wlywpi-MuiToolbar-root"
+    >
+      <div
+        class="MuiBox-root css-1rr4qq7"
+      />
+      <a
+        class="MuiTypography-root MuiTypography-h4 MuiLink-root MuiLink-underlineAlways css-l2y2e4-MuiTypography-root-MuiLink-root"
+        href="/"
+      >
+        web • audio • machines
+      </a>
+      <div
+        class="MuiBox-root css-1j9bsaa"
+      >
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
+        >
+          Sign In
+        </a>
+        <a
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
+        >
+          Sign Up
+        </a>
+      </div>
+    </div>
+  </header>
+  <div
+    class="MuiContainer-root css-l1bhnm-MuiContainer-root"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-4jjtl3-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-81gthn"
+      >
+        Sampler
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root css-1s55f6l-MuiContainer-root"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-12tubgu-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          © web audio machines 
+          2022
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 `;

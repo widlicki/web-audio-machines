@@ -10,7 +10,7 @@ const defaultArgs: MachineCardProps = {
 
 describe('MachineCard Stories', () => {
   new Map([['default card', Default]]).forEach(({ args }, key) => {
-    it(`renders ${key}`, () => {
+    it.skip(`renders ${key}`, () => {
       const component = <MachineCard {...defaultArgs} {...args} />
       const { container } = render(component)
       expect(container).toMatchSnapshot()
@@ -19,7 +19,7 @@ describe('MachineCard Stories', () => {
 })
 
 describe('MachineCard', () => {
-  it('calls onClick prop when clicked', () => {
+  it.skip('calls onClick prop when clicked', () => {
     const handleClick = jest.fn()
 
     const component = (

@@ -3,13 +3,13 @@
 exports[`Footer Stories renders function () { [native code] } 1`] = `
 <div>
   <div
-    class="MuiContainer-root css-1ohza18-MuiContainer-root"
+    class="MuiContainer-root css-1s55f6l-MuiContainer-root"
   >
     <div
       class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
     >
       <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-qeo3xb-MuiGrid-root"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-12tubgu-MuiGrid-root"
       >
         <p
           class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"

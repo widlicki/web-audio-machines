@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLink Stories renders function () { [native code] } 1`] = `
+<div>
+  <a
+    class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
+  >
+    Link
+  </a>
+</div>
+`;

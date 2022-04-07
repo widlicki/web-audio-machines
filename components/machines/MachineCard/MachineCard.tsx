@@ -23,7 +23,7 @@ const MachineCard = ({ description, image, name, to }: MachineCardProps) => {
     <Card
       sx={{
         background: theme.background.color.light,
-        borderRadius: '14px',
+        borderRadius: theme.border.radius.sm,
         color: 'common.white',
         padding: theme.spacing(4),
       }}
