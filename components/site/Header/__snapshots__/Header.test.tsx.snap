@@ -3,26 +3,25 @@
 exports[`Header Stories renders correct header when user is logged in 1`] = `
 <div>
   <header
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1hc7nu0-MuiPaper-root-MuiAppBar-root"
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-xnb1ep-MuiPaper-root-MuiAppBar-root"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1im6ja8-MuiToolbar-root"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1wlywpi-MuiToolbar-root"
     >
       <div
         class="MuiBox-root css-1rr4qq7"
       />
       <a
-        class="MuiTypography-root MuiTypography-h6 MuiLink-root MuiLink-underlineAlways css-1uszxa5-MuiTypography-root-MuiLink-root"
+        class="MuiTypography-root MuiTypography-h4 MuiLink-root MuiLink-underlineAlways css-l2y2e4-MuiTypography-root-MuiLink-root"
         href="/"
       >
-        webaudiomachines
+        web • audio • machines
       </a>
       <div
         class="MuiBox-root css-1j9bsaa"
       >
         <a
-          class="MuiTypography-root MuiTypography-h6 MuiLink-root MuiLink-underlineAlways css-kejutp-MuiTypography-root-MuiLink-root"
-          href="/sign-in/"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
         >
           Sign Out
         </a>
@@ -35,32 +34,30 @@ exports[`Header Stories renders correct header when user is logged in 1`] = `
 exports[`Header Stories renders correct header when user is not logged in 1`] = `
 <div>
   <header
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1hc7nu0-MuiPaper-root-MuiAppBar-root"
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-xnb1ep-MuiPaper-root-MuiAppBar-root"
   >
     <div
-      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1im6ja8-MuiToolbar-root"
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1wlywpi-MuiToolbar-root"
     >
       <div
         class="MuiBox-root css-1rr4qq7"
       />
       <a
-        class="MuiTypography-root MuiTypography-h6 MuiLink-root MuiLink-underlineAlways css-1uszxa5-MuiTypography-root-MuiLink-root"
+        class="MuiTypography-root MuiTypography-h4 MuiLink-root MuiLink-underlineAlways css-l2y2e4-MuiTypography-root-MuiLink-root"
         href="/"
       >
-        webaudiomachines
+        web • audio • machines
       </a>
       <div
         class="MuiBox-root css-1j9bsaa"
       >
         <a
-          class="MuiTypography-root MuiTypography-h6 MuiLink-root MuiLink-underlineAlways css-kejutp-MuiTypography-root-MuiLink-root"
-          href="/sign-in/"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
         >
           Sign In
         </a>
         <a
-          class="MuiTypography-root MuiTypography-h6 MuiLink-root MuiLink-underlineAlways css-kejutp-MuiTypography-root-MuiLink-root"
-          href="/sign-up/"
+          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
         >
           Sign Up
         </a>

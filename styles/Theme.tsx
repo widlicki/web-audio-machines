@@ -24,6 +24,11 @@ declare module '@mui/material/styles' {
         dark: string
         light: string
       }
+      radius: {
+        sm: string
+        md: string
+        lg: string
+      }
     }
     disabled: {
       color: string
@@ -46,6 +51,11 @@ declare module '@mui/material/styles' {
       color?: {
         dark?: string
         light?: string
+      }
+      radius: {
+        sm?: string
+        md?: string
+        lg?: string
       }
     }
     disabled?: {
@@ -71,6 +81,11 @@ const theme = createTheme({
       dark: grey[800],
       light: grey[200],
     },
+    radius: {
+      sm: '5px',
+      md: '20px',
+      lg: '50px',
+    },
   },
   disabled: {
     color: grey[400],
@@ -78,7 +93,9 @@ const theme = createTheme({
   },
   palette: {
     primary: {
+      light: '#5c6483',
       main: '#303C61',
+      dark: '#4c4b79',
     },
     secondary: {
       main: '#DB9D0D',
@@ -88,13 +105,6 @@ const theme = createTheme({
 
 export const Loader = styled(CircularProgress)(() => ({
   color: theme.palette.primary.main,
-}))
-
-export const NavLink = styled(Link)(() => ({
-  fontSize: 16,
-  color: common.white,
-  marginLeft: '12px',
-  textDecoration: 'none',
 }))
 
 export const NotFoundMessage = styled(Typography)(() => ({

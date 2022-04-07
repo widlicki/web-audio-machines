@@ -3,7 +3,7 @@
 exports[`Button Stories renders function () { [native code] } 1`] = `
 <div>
   <button
-    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root css-deftno-MuiButtonBase-root-MuiButton-root"
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-19fmyw4-MuiButtonBase-root-MuiButton-root"
     tabindex="0"
     type="button"
   >
@@ -18,7 +18,7 @@ exports[`Button Stories renders function () { [native code] } 1`] = `
 exports[`Button Stories renders function () { [native code] } 2`] = `
 <div>
   <button
-    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root css-deftno-MuiButtonBase-root-MuiButton-root"
+    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-19fmyw4-MuiButtonBase-root-MuiButton-root"
     tabindex="0"
     type="button"
   >

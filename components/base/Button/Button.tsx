@@ -1,28 +1,29 @@
-import { Button, styled } from '@mui/material'
+import { Button } from '@mui/material'
 import theme from '../../../styles/theme'
 
-const StyledButton = styled(Button)(() => ({
-  borderRadius: '6px',
-  padding: '9px 18px 9px',
-  border: '1px solid #26607d',
-  backgroundColor: '#5c6483',
-  color: '#fff',
-  '&:hover': {
-    backgroundColor: '#4c4b79',
-    cursor: 'pointer',
-  },
-  '&:disabled': {
-    cursor: 'not-allowed',
-    backgroundColor: theme.disabled.bgColor,
-    border: `1px solid ${theme.disabled.color}`,
-    color: theme.disabled.color,
-  },
-}))
-
-export interface ButtonProps {}
-
 const AppButton = ({ children, ...props }) => (
-  <StyledButton {...props}>{children}</StyledButton>
+  <Button
+    sx={{
+      borderRadius: theme.border.radius.sm,
+      padding: `${theme.spacing(2)} ${theme.spacing(4)} ${theme.spacing(2)}`,
+      border: `${theme.border.size.sm} solid ${theme.border.color.light}`,
+      backgroundColor: theme.palette.primary.light,
+      color: 'common.white',
+      '&:hover': {
+        backgroundColor: theme.palette.primary.dark,
+        cursor: 'pointer',
+      },
+      '&:disabled': {
+        cursor: 'not-allowed',
+        backgroundColor: theme.disabled.bgColor,
+        border: `${theme.border.size.sm} solid ${theme.disabled.color}`,
+        color: theme.disabled.color,
+      },
+    }}
+    {...props}
+  >
+    {children}
+  </Button>
 )
 
 export default AppButton
