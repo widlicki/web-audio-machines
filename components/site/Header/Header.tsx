@@ -1,6 +1,6 @@
 import { AppBar, Link, Toolbar } from '@mui/material'
 import Box from '@mui/material/Box'
-import theme from '../../../styles/theme'
+import theme from '../../../styles/Theme'
 import NavLink from '../../base/NavLink/NavLink'
 
 export interface HeaderProps {

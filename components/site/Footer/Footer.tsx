@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
-import theme from '../../../styles/theme'
+import theme from '../../../styles/Theme'
 
 const Footer = () => (
   <Container

@@ -1,5 +1,5 @@
 import { Container } from '@mui/material'
-import theme from '../../../../styles/theme'
+import theme from '../../../../styles/Theme'
 import Footer from '../../Footer/Footer'
 import Header from '../../Header/Header'
 

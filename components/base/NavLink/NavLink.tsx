@@ -1,10 +1,10 @@
 import { Link } from '@mui/material'
 import { useRouter } from 'next/router'
-import theme from '../../../styles/theme'
+import theme from '../../../styles/Theme'
 
 export interface NavLinkProps {
   to: string
-  children?: any
+  children?: JSX.Element | string
   props?: any
 }
 

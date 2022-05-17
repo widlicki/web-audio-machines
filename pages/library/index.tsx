@@ -5,7 +5,7 @@ import AudioCategoryList from '../../components/machines/AudioCategoryList/Audio
 import { useGetData } from '../../hooks/useGetData/useGetData'
 import { AudioCategory } from '../../interfaces/library'
 import { API_URL, AUDIO_CATEGORIES } from '../../networkRequests/constants'
-import theme from '../../styles/theme'
+import theme from '../../styles/Theme'
 
 const AudioCategoriesWithRequest = withRequest(AudioCategoryList)
 

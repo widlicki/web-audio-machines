@@ -11,7 +11,7 @@ import {
 } from '@mui/material'
 import { useState } from 'react'
 import { AudioCategory } from '../../../interfaces/library'
-import { NotFoundMessage } from '../../../styles/theme'
+import { NotFoundMessage } from '../../../styles/Theme'
 
 export interface AudioCategoryListProps {
   categories: AudioCategory[]

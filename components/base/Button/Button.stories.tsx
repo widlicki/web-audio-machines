@@ -11,8 +11,19 @@ const Template: ComponentStory<typeof Button> = (args) => (
 )
 
 export const DefaultButton = Template.bind({})
+DefaultButton.args = {
+  text: 'Button',
+}
 
 export const DisabledButton = Template.bind({})
 DisabledButton.args = {
   disabled: true,
+  text: 'Button',
+}
+
+export const ToggleButton = Template.bind({})
+ToggleButton.args = {
+  text: 'Off',
+  toggleText: 'On',
+  variant: 'toggle',
 }
