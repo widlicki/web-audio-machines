@@ -13,6 +13,7 @@ declare module '@mui/material/styles' {
       color: {
         dark: string
         light: string
+        lightest: string
       }
     }
     border: {
@@ -41,6 +42,7 @@ declare module '@mui/material/styles' {
       color?: {
         dark?: string
         light?: string
+        lightest?: string
       }
     }
     border?: {
@@ -70,6 +72,7 @@ const theme = createTheme({
     color: {
       dark: '#444753',
       light: '#5d6990',
+      lightest: grey[200],
     },
   },
   border: {

@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 import type { NextPage } from 'next'
 import DefaultTemplate from '../components/site/Templates/Default/DefaultTemplate'
-import theme from '../styles/theme'
+import theme from '../styles/Theme'
 
 const SignInPage: NextPage = () => (
   <DefaultTemplate>

@@ -1,7 +1,7 @@
 import { Card, CardActions, CardContent, Typography } from '@mui/material'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import theme from '../../../styles/theme'
+import theme from '../../../styles/Theme'
 import AppButton from '../../base/Button/Button'
 
 export interface MachineCardProps {
@@ -36,7 +36,7 @@ const MachineCard = ({ description, image, name, to }: MachineCardProps) => {
         <Typography variant="body2">{description}</Typography>
       </CardContent>
       <CardActions>
-        <AppButton onClick={handleClick}>Launch</AppButton>
+        <AppButton onClick={handleClick} text="Launch" />
       </CardActions>
     </Card>
   )
