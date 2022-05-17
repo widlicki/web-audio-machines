@@ -19,7 +19,7 @@ const Module = ({ title, children }: ModuleProps) => (
       sx={{
         color: 'common.white',
         backgroundColor: theme.background.color.light,
-        height: '16px',
+        height: '40px',
         padding: theme.spacing(2),
       }}
     />
@@ -27,7 +27,7 @@ const Module = ({ title, children }: ModuleProps) => (
       sx={{
         backgroundColor: theme.background.color.lightest,
         padding: theme.spacing(2),
-        height: '16px',
+        height: '100%',
       }}
     >
       {children}
