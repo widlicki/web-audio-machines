@@ -85,7 +85,7 @@ const theme = createTheme({
       light: grey[200],
     },
     radius: {
-      sm: '5px',
+      sm: '2px',
       md: '20px',
       lg: '50px',
     },
