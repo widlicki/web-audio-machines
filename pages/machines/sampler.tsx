@@ -1,6 +1,6 @@
 import { Box, Grid } from '@mui/material'
 import type { NextPage } from 'next'
-import Module from '../../components/base/Module/Module'
+import PlaybackControl from '../../components/machines/PlaybackControl/PlaybackControl'
 import theme from '../../styles/Theme'
 
 const SamplerPage: NextPage = () => (
@@ -15,7 +15,7 @@ const SamplerPage: NextPage = () => (
   >
     <Grid container>
       <Grid item xs={12} sm={6} md={3}>
-        <Module title="Audio Slots" />
+        <PlaybackControl />
       </Grid>
     </Grid>
   </Box>

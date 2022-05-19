@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module Stories renders function () { [native code] } 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1w3wvhy-MuiPaper-root-MuiCard-root"
+  >
+    <div
+      class="MuiCardHeader-root css-1aseecf-MuiCardHeader-root"
+    >
+      <div
+        class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+      >
+        <span
+          class="MuiTypography-root MuiTypography-subtitle2 MuiCardHeader-title css-1sr7afs-MuiTypography-root"
+        >
+          test
+        </span>
+      </div>
+    </div>
+    <div
+      class="MuiCardContent-root css-198pza3-MuiCardContent-root"
+    />
+  </div>
+</div>
+`;
