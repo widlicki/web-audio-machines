@@ -6,7 +6,7 @@ export interface PlaybackState {
 }
 
 const initialState: PlaybackState = {
-  status: 'playing',
+  status: 'stopped',
 }
 
 export const playbackControlSlice = createSlice({
@@ -27,9 +27,6 @@ export const playbackControlSlice = createSlice({
 
 export const { pause, play, stop } = playbackControlSlice.actions
 
-// The function below is called a selector and allows us to select a value from
-// the state. Selectors can also be defined inline where they're used instead of
-// in the slice file. For example: `useSelector((state: RootState) => state.counter.value)`
 export const selectPlaybackStatus = (state: AppState) =>
   state.playbackControl.status
 

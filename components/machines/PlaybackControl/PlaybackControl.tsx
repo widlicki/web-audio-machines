@@ -35,13 +35,13 @@ const PlaybackControl = () => {
         exclusive
         onChange={handleChange}
       >
-        <ToggleButton value="playing">
+        <ToggleButton value="playing" aria-label="Play button">
           <PlayButtonIcon />
         </ToggleButton>
-        <ToggleButton value="paused">
+        <ToggleButton value="paused" aria-label="Pause button">
           <PauseButtonIcon />
         </ToggleButton>
-        <ToggleButton value="stopped">
+        <ToggleButton value="stopped" aria-label="Stop button">
           <StopButtonIcon />
         </ToggleButton>
       </ToggleButtonGroup>
