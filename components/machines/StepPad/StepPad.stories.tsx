@@ -13,7 +13,7 @@ const Template: ComponentStory<typeof StepPad> = (args) => <StepPad {...args} />
 
 export const Default = Template.bind({})
 Default.args = {
-  active: false,
-  enabled: true,
-  on: false,
+  isDisabled: false,
+  isSet: false,
+  isTriggered: false,
 }
