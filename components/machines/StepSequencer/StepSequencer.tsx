@@ -2,6 +2,7 @@ import { ReactJSXElement } from '@emotion/react/types/jsx-namespace'
 import { Grid } from '@mui/material'
 import { useAppDispatch, useAppSelector } from '../../../hooks/hooks'
 import theme from '../../../styles/Theme'
+import Module from '../../base/Module/Module'
 import StepPad from '../StepPad/StepPad'
 import {
   decNumSteps,
@@ -27,6 +28,7 @@ const StepSequencer = () => {
         </Grid>
       )
       if (i % 4 === 0) {
+        // Every 4 steps, push row of 6 cols to create 8 cols total on 12 grid system
         sequencerSteps.push(
           <Grid container direction="row" xs={6}>
             {steps}
@@ -39,9 +41,16 @@ const StepSequencer = () => {
   }
 
   return (
-    <Grid container direction="row" justifyContent="center" alignItems="center">
-      {createSequencerSteps()}
-    </Grid>
+    <Module title="Step Sequencer">
+      <Grid
+        container
+        direction="row"
+        justifyContent="center"
+        alignItems="center"
+      >
+        {createSequencerSteps()}
+      </Grid>
+    </Module>
   )
 }
 

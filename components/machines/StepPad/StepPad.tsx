@@ -22,7 +22,7 @@ const StepPad = ({
           : `${borderSize} dashed ${borderColor}`,
         borderRadius: theme.border.radius.sm,
         minWidth: '60px',
-        minHeight: '40px',
+        minHeight: '50px',
       }}
     />
   )
