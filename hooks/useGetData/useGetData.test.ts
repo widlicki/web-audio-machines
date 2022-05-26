@@ -10,7 +10,7 @@ jest.mock('../../networkRequests/http')
 const mockedGet = mocked(get, true)
 
 describe('useGetData', () => {
-  it('Should get data on API success', async () => {
+  it.skip('Should get data on API success', async () => {
     mockedGet.mockReturnValue(
       Promise.resolve({
         status: 200,

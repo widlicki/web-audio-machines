@@ -2,20 +2,20 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { AppState } from '../../../store/index'
 
-export interface StepSequencerState {
+export interface StepControlState {
   maxNumSteps: 16 | 32 | 64
   minNumSteps: number
   numSteps: number
 }
 
-const initialState: StepSequencerState = {
+const initialState: StepControlState = {
   maxNumSteps: 32,
   minNumSteps: 8,
   numSteps: 16,
 }
 
-export const stepSequencerSlice = createSlice({
-  name: 'stepSequencer',
+export const stepControlSlice = createSlice({
+  name: 'stepControl',
   initialState,
   reducers: {
     decNumSteps: (state) => {
@@ -33,12 +33,12 @@ export const stepSequencerSlice = createSlice({
   },
 })
 
-export const { incNumSteps, decNumSteps } = stepSequencerSlice.actions
+export const { incNumSteps, decNumSteps } = stepControlSlice.actions
 
-export const selectNumSteps = (state: AppState) => state.stepSequencer.numSteps
+export const selectNumSteps = (state: AppState) => state.stepControl.numSteps
 export const selectMaxNumSteps = (state: AppState) =>
-  state.stepSequencer.maxNumSteps
+  state.stepControl.maxNumSteps
 export const selectMinNumSteps = (state: AppState) =>
-  state.stepSequencer.minNumSteps
+  state.stepControl.minNumSteps
 
-export default stepSequencerSlice.reducer
+export default stepControlSlice.reducer

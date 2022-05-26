@@ -3,17 +3,14 @@ import { Grid } from '@mui/material'
 import { useAppDispatch, useAppSelector } from '../../../hooks/hooks'
 import theme from '../../../styles/Theme'
 import Module from '../../base/Module/Module'
-import StepPad from '../StepPad/StepPad'
 import {
-  decNumSteps,
-  incNumSteps,
   selectMaxNumSteps,
   selectMinNumSteps,
   selectNumSteps,
-} from './stepSequencerSlice'
+} from '../StepControl/stepControlSlice'
+import StepPad from '../StepPad/StepPad'
 
 const StepSequencer = () => {
-  const dispatch = useAppDispatch()
   const numSteps = useAppSelector(selectNumSteps)
   const maxNumSteps = useAppSelector(selectMaxNumSteps)
   const minNumSteps = useAppSelector(selectMinNumSteps)
@@ -23,7 +20,13 @@ const StepSequencer = () => {
     let steps: ReactJSXElement[] = []
     for (let i = 1; i <= maxNumSteps; i += 1) {
       steps.push(
-        <Grid item xs={3} direction="column" sx={{ padding: theme.spacing(1) }}>
+        <Grid
+          key={`pad-${i}`}
+          item
+          xs={3}
+          direction="column"
+          sx={{ padding: theme.spacing(1) }}
+        >
           <StepPad isDisabled={false} isSet={false} isTriggered={false} />
         </Grid>
       )

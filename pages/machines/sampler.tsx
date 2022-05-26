@@ -1,6 +1,7 @@
 import { Box, Grid } from '@mui/material'
 import type { NextPage } from 'next'
 import PlaybackControl from '../../components/machines/PlaybackControl/PlaybackControl'
+import StepControl from '../../components/machines/StepControl/StepControl'
 import StepSequencer from '../../components/machines/StepSequencer/StepSequencer'
 import MachineTemplate from '../../components/site/Templates/MachineTemplate/MachineTemplate'
 import theme from '../../styles/Theme'
@@ -17,8 +18,11 @@ const SamplerPage: NextPage = () => (
       }}
     >
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item xs={5}>
           <PlaybackControl />
+        </Grid>
+        <Grid item xs={2}>
+          <StepControl />
         </Grid>
         <Grid item xs={12}>
           <StepSequencer />

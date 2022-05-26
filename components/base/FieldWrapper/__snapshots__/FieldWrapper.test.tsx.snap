@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldWrapper Stories renders function () { [native code] } 1`] = `
+<div>
+  <fieldset
+    class="MuiFormControl-root css-heqxz8-MuiFormControl-root"
+  >
+    <legend
+      class="MuiFormLabel-root MuiFormLabel-colorPrimary css-1gye1hj-MuiFormLabel-root"
+    >
+      test
+    </legend>
+    <div
+      class="MuiFormGroup-root css-dmmspl-MuiFormGroup-root"
+    >
+      <h2>
+        some content
+      </h2>
+    </div>
+  </fieldset>
+</div>
+`;

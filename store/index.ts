@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit'
 import playbackControlReducer from '../components/machines/PlaybackControl/playbackControlSlice'
-import stepSequencerReducer from '../components/machines/StepSequencer/stepSequencerSlice'
+import stepControlReducer from '../components/machines/StepControl/stepControlSlice'
 
 export function makeStore() {
   return configureStore({
     reducer: {
       playbackControl: playbackControlReducer,
-      stepSequencer: stepSequencerReducer,
+      stepControl: stepControlReducer,
     },
   })
 }
