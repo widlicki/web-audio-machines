@@ -3,7 +3,7 @@ import { mockAudioCategories } from '../../../mocks/library'
 import AudioCategoryList from './AudioCategoryList'
 
 export default {
-  title: 'Machines/AudioCategoryList',
+  title: 'components/machines/AudioCategoryList',
   component: AudioCategoryList,
 } as ComponentMeta<typeof AudioCategoryList>
 

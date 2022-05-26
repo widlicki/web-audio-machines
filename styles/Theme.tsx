@@ -1,11 +1,10 @@
 import {
   CircularProgress,
-  Link,
   Typography,
   createTheme,
   styled,
 } from '@mui/material'
-import { common, grey } from '@mui/material/colors'
+import { grey } from '@mui/material/colors'
 
 declare module '@mui/material/styles' {
   interface Theme {
@@ -24,6 +23,7 @@ declare module '@mui/material/styles' {
       color: {
         dark: string
         light: string
+        normal: string
       }
       radius: {
         sm: string
@@ -53,6 +53,7 @@ declare module '@mui/material/styles' {
       color?: {
         dark?: string
         light?: string
+        normal?: string
       }
       radius: {
         sm?: string
@@ -83,6 +84,7 @@ const theme = createTheme({
     color: {
       dark: grey[800],
       light: grey[200],
+      normal: grey[400],
     },
     radius: {
       sm: '2px',

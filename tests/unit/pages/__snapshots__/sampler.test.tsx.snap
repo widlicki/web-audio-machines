@@ -2,65 +2,630 @@
 
 exports[`Sampler renders sampler page according to snapshot 1`] = `
 <div>
-  <header
-    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-xnb1ep-MuiPaper-root-MuiAppBar-root"
-  >
-    <div
-      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1wlywpi-MuiToolbar-root"
-    >
-      <div
-        class="MuiBox-root css-1rr4qq7"
-      />
-      <a
-        class="MuiTypography-root MuiTypography-h4 MuiLink-root MuiLink-underlineAlways css-l2y2e4-MuiTypography-root-MuiLink-root"
-        href="/"
-      >
-        web • audio • machines
-      </a>
-      <div
-        class="MuiBox-root css-1j9bsaa"
-      >
-        <a
-          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
-        >
-          Sign In
-        </a>
-        <a
-          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-kq33hk-MuiTypography-root-MuiLink-root"
-        >
-          Sign Up
-        </a>
-      </div>
-    </div>
-  </header>
   <div
     class="MuiContainer-root css-l1bhnm-MuiContainer-root"
   >
     <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-4jjtl3-MuiContainer-root"
+      class="MuiContainer-root MuiContainer-maxWidthLg css-tebzjo-MuiContainer-root"
     >
       <div
-        class="MuiBox-root css-81gthn"
+        class="MuiBox-root css-czuxp4"
       >
-        Sampler
-      </div>
-    </div>
-  </div>
-  <div
-    class="MuiContainer-root css-1s55f6l-MuiContainer-root"
-  >
-    <div
-      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
-    >
-      <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-12tubgu-MuiGrid-root"
-      >
-        <p
-          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        <div
+          class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
         >
-          © web audio machines 
-          2022
-        </p>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-5 css-k3f0g4-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-7mywch-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardHeader-root css-1aseecf-MuiCardHeader-root"
+              >
+                <div
+                  class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-subtitle2 MuiCardHeader-title css-1sr7afs-MuiTypography-root"
+                  >
+                    Playback
+                  </span>
+                </div>
+              </div>
+              <div
+                class="MuiCardContent-root css-198pza3-MuiCardContent-root"
+              >
+                <div
+                  class="MuiBox-root css-k008qs"
+                >
+                  <div
+                    class="MuiBox-root css-3cyd2n"
+                  >
+                    <fieldset
+                      class="MuiFormControl-root css-heqxz8-MuiFormControl-root"
+                    >
+                      <legend
+                        class="MuiFormLabel-root MuiFormLabel-colorPrimary css-1gye1hj-MuiFormLabel-root"
+                      >
+                        BPM
+                      </legend>
+                      <div
+                        class="MuiFormGroup-root css-dmmspl-MuiFormGroup-root"
+                      >
+                        <div
+                          class="MuiBox-root css-1cdr2uo"
+                        >
+                          <button
+                            aria-label="decrement count"
+                            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-10gnm35-MuiSvgIcon-root"
+                              data-testid="RemoveCircleIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                          <div
+                            aria-label="number value"
+                            class="MuiBox-root css-0"
+                          >
+                            90
+                          </div>
+                          <button
+                            aria-label="increment count"
+                            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+                            tabindex="0"
+                            type="button"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-10gnm35-MuiSvgIcon-root"
+                              data-testid="AddCircleIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+                              />
+                            </svg>
+                            <span
+                              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </fieldset>
+                  </div>
+                  <div
+                    class="MuiToggleButtonGroup-root css-1gjgmky-MuiToggleButtonGroup-root"
+                    role="group"
+                  >
+                    <button
+                      aria-label="Play button"
+                      aria-pressed="false"
+                      class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ueukts-MuiButtonBase-root-MuiToggleButton-root"
+                      tabindex="0"
+                      type="button"
+                      value="playing"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PlayArrowIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8 5v14l11-7z"
+                        />
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <button
+                      aria-label="Pause button"
+                      aria-pressed="false"
+                      class="MuiButtonBase-root MuiToggleButton-root MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ueukts-MuiButtonBase-root-MuiToggleButton-root"
+                      tabindex="0"
+                      type="button"
+                      value="paused"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="PauseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"
+                        />
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                    <button
+                      aria-label="Stop button"
+                      aria-pressed="true"
+                      class="MuiButtonBase-root MuiToggleButton-root Mui-selected MuiToggleButton-sizeMedium MuiToggleButton-standard MuiToggleButtonGroup-grouped MuiToggleButtonGroup-groupedHorizontal css-ueukts-MuiButtonBase-root-MuiToggleButton-root"
+                      tabindex="0"
+                      type="button"
+                      value="stopped"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="StopIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 6h12v12H6z"
+                        />
+                      </svg>
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                  <div
+                    class="MuiBox-root css-ir5tdx"
+                  >
+                    <div
+                      class="MuiFormControl-root css-1nrlq1o-MuiFormControl-root"
+                    >
+                      <div
+                        class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+                      >
+                        <label
+                          class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled css-1kty9di-MuiFormLabel-root-MuiInputLabel-root"
+                          data-shrink="true"
+                          for="mui-1"
+                          id="mui-1-label"
+                        >
+                          Direction
+                        </label>
+                        <div
+                          class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                        >
+                          <div
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="mui-1-label mui-1"
+                            class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+                            id="mui-1"
+                            role="button"
+                            tabindex="0"
+                          >
+                            Forward
+                          </div>
+                          <input
+                            aria-hidden="true"
+                            class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+                            tabindex="-1"
+                            value="forward"
+                          />
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+                            data-testid="ArrowDropDownIcon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M7 10l5 5 5-5z"
+                            />
+                          </svg>
+                          <fieldset
+                            aria-hidden="true"
+                            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                          >
+                            <legend
+                              class="css-1z7n62"
+                            >
+                              <span>
+                                Direction
+                              </span>
+                            </legend>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2 css-1o7apob-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-7mywch-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardHeader-root css-1aseecf-MuiCardHeader-root"
+              >
+                <div
+                  class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-subtitle2 MuiCardHeader-title css-1sr7afs-MuiTypography-root"
+                  >
+                    Step Controls
+                  </span>
+                </div>
+              </div>
+              <div
+                class="MuiCardContent-root css-198pza3-MuiCardContent-root"
+              >
+                <fieldset
+                  class="MuiFormControl-root css-heqxz8-MuiFormControl-root"
+                >
+                  <legend
+                    class="MuiFormLabel-root MuiFormLabel-colorPrimary css-1gye1hj-MuiFormLabel-root"
+                  >
+                    Num Steps
+                  </legend>
+                  <div
+                    class="MuiFormGroup-root css-dmmspl-MuiFormGroup-root"
+                  >
+                    <div
+                      class="MuiBox-root css-1cdr2uo"
+                    >
+                      <button
+                        aria-label="decrement count"
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-10gnm35-MuiSvgIcon-root"
+                          data-testid="RemoveCircleIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z"
+                          />
+                        </svg>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                      <div
+                        aria-label="number value"
+                        class="MuiBox-root css-0"
+                      >
+                        16
+                      </div>
+                      <button
+                        aria-label="increment count"
+                        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorPrimary MuiIconButton-sizeMedium css-1kuq5xv-MuiButtonBase-root-MuiIconButton-root"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-10gnm35-MuiSvgIcon-root"
+                          data-testid="AddCircleIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"
+                          />
+                        </svg>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1idn90j-MuiGrid-root"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-7mywch-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardHeader-root css-1aseecf-MuiCardHeader-root"
+              >
+                <div
+                  class="MuiCardHeader-content css-1qbkelo-MuiCardHeader-content"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-subtitle2 MuiCardHeader-title css-1sr7afs-MuiTypography-root"
+                  >
+                    Step Sequencer
+                  </span>
+                </div>
+              </div>
+              <div
+                class="MuiCardContent-root css-198pza3-MuiCardContent-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-container css-1hbmzt3-MuiGrid-root"
+                >
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="MuiGrid-root MuiGrid-container MuiGrid-grid-xs-6 css-dzaaci-MuiGrid-root"
+                  >
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                    <div
+                      class="MuiGrid-root MuiGrid-item MuiGrid-direction-xs-column MuiGrid-grid-xs-3 css-10jz4s5-MuiGrid-root"
+                    >
+                      <div
+                        class="MuiBox-root css-zf09ms"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

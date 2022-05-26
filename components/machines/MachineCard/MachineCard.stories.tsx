@@ -3,7 +3,7 @@ import SamplerImg from '../../../resources/images/sampler.png'
 import MachineCard from './MachineCard'
 
 export default {
-  title: 'Machines/MachineCard',
+  title: 'components/machines/MachineCard',
   component: MachineCard,
   parameters: {
     layout: 'fullscreen',
